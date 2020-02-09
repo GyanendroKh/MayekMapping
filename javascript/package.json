@@ -1,0 +1,9 @@
+{
+  "name": "@meiteimayek/mapping",
+  "version": "v0.0.1-beta",
+  "description": "Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Font.",
+  "main": "mayek.js",
+  "keywords": ["meiteimayek", "meitei-mayek", "mapping", "utility", "manipuri"],
+  "author": "khgyanendro77@gmail.com",
+  "license": "Apache-2.0"
+}
