@@ -1,0 +1,1 @@
+from mayek.main import Mayek
