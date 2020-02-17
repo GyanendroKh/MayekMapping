@@ -9,7 +9,7 @@ const mapping = data
     return item['mayek'];
   })
   .reduce((acc, item) => {
-    item.forEach(i => (acc[i['code']] = i['char']));
+    item.forEach(i => (acc[i['code'].trim()] = i['char'].trim()));
     return acc;
   }, {});
 
@@ -18,18 +18,18 @@ const mappingRev = data
     return item['mayek'];
   })
   .reduce((acc, item) => {
-    item.forEach(i => (acc[i['char']] = i['code']));
+    item.forEach(i => (acc[i['char'].trim()] = i['code'].trim()));
     return acc;
   }, {});
 
 const Mayek = {
   mapping,
   mappingRev,
-  MAPUM: data[0]['mayek'].map(i => i['char']),
-  LONSUM: data[1]['mayek'].map(i => i['char']),
-  CHEITAP: data[2]['mayek'].map(i => i['char']),
-  CHEISING: data[3]['mayek'].map(i => i['char']),
-  KHUDAM: data[4]['mayek'].map(i => i['char']),
+  MAPUM: data[0]['mayek'].map(i => i['char'].trim()),
+  LONSUM: data[1]['mayek'].map(i => i['char'].trim()),
+  CHEITAP: data[2]['mayek'].map(i => i['char'].trim()),
+  CHEISING: data[3]['mayek'].map(i => i['char'].trim()),
+  KHUDAM: data[4]['mayek'].map(i => i['char'].trim()),
   toUnicode: string => {
     return string
       .split('')

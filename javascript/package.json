@@ -1,6 +1,6 @@
 {
   "name": "@meiteimayek/mapping",
-  "version": "v0.0.1-beta0",
+  "version": "v0.0.1-beta1",
   "description": "Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Font.",
   "homepage": "https://github.com/GyanendroKh/MayekMapping/tree/master/javascript",
   "main": "mayek.js",
