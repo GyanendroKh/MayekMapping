@@ -1,5 +1,5 @@
 # MayekMapping
-Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Fonts.   
+Utility Functions for managing Meitei Mayek Characters and mapping to E-pao or Ratha Fonts.   
 
 ### Installation
 `$ yarn add @meiteimayek/mapping`
@@ -8,7 +8,7 @@ Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Font
 
 ### Usage
 ```javascript
-const mayek = require('@meiteimayek/mapping');
+const mayek = require('@meiteimayek/mapping')('epao'); // 'ratha'
 
 // This will print out all the Mapum Mayek
 console.log(mayek.MAPUM)

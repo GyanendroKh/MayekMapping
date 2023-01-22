@@ -4,6 +4,7 @@
   "description": "Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Font.",
   "homepage": "https://github.com/GyanendroKh/MayekMapping/tree/master/javascript",
   "main": "mayek.js",
+  "types": "mayek.d.ts",
   "keywords": ["meiteimayek", "meitei-mayek", "mapping", "utility", "manipuri"],
   "author": {
     "name": "Gyanendro Kh",
