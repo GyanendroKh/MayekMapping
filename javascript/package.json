@@ -5,15 +5,21 @@
   "homepage": "https://github.com/GyanendroKh/MayekMapping/tree/master/javascript",
   "main": "mayek.js",
   "types": "mayek.d.ts",
-  "keywords": ["meiteimayek", "meitei-mayek", "mapping", "utility", "manipuri"],
+  "keywords": [
+    "meiteimayek",
+    "meitei-mayek",
+    "mapping",
+    "utility",
+    "manipuri"
+  ],
   "author": {
     "name": "Gyanendro Kh",
-    "email": "khgyanendro77@gmail.com",
-    "url": "https://gyanendrokh.github.io"
+    "email": "me@gyanendrokh.dev",
+    "url": "https://gyanendrokh.dev"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/GyanendroKh/MayekMapping.git",
+    "type": "git",
+    "url": "https://github.com/GyanendroKh/MayekMapping.git",
     "directory": "javascript/"
   },
   "license": "Apache-2.0"
