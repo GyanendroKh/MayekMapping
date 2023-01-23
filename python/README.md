@@ -1,14 +1,17 @@
 # MayekMapping
-Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Fonts.   
+
+Utility Functions for managing Meitei Mayek Characters and mapping to E-pao Fonts.
 
 ### Installation
+
 `$ python3 -m pip install meiteimayek-mapping`
 
 ### Usage
+
 ```python
 from mayek import Mayek
 
-mayek = Mayek()
+mayek = Mayek('epao') # 'ratha'
 
 # This will print out all the Mapum Mayek
 print(mayek.MAPUM)

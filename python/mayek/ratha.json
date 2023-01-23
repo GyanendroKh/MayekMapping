@@ -1,0 +1,85 @@
+[
+  {
+    "name": "mapum",
+    "mayek": [
+      { "code": "s", "char": "ꯀ" },
+      { "code": "K", "char": "ꯁ" },
+      { "code": "m", "char": "ꯂ" },
+      { "code": "a", "char": "ꯃ" },
+      { "code": "w", "char": "ꯄ" },
+      { "code": "e", "char": "ꯅ" },
+      { "code": "=", "char": "ꯆ" },
+      { "code": "v", "char": "ꯆ" },
+      { "code": "f", "char": "ꯇ" },
+      { "code": "S", "char": "ꯈ" },
+      { "code": "Z", "char": "ꯉ" },
+      { "code": "F", "char": "ꯊ" },
+      { "code": "_", "char": "ꯋ" },
+      { "code": "\\", "char": "ꯌ" },
+      { "code": "o", "char": "ꯍ" },
+      { "code": "B", "char": "ꯎ" },
+      { "code": "T", "char": "ꯏ" },
+      { "code": "W", "char": "ꯐ" },
+      { "code": "[", "char": "ꯑ" },
+      { "code": "x", "char": "ꯒ" },
+      { "code": "C", "char": "ꯓ" },
+      { "code": "j", "char": "ꯔ" },
+      { "code": "q", "char": "ꯕ" },
+      { "code": "c", "char": "ꯖ" },
+      { "code": "r", "char": "ꯗ" },
+      { "code": "X", "char": "ꯘ" },
+      { "code": "R", "char": "ꯙ" },
+      { "code": "z", "char": "ꯚ" }
+    ]
+  },
+  {
+    "name": "lonsum",
+    "mayek": [
+      { "code": "d", "char": "ꯛ" },
+      { "code": "M", "char": "ꯜ" },
+      { "code": "A", "char": "ꯝ" },
+      { "code": "N", "char": "ꯞ" },
+      { "code": "E", "char": "ꯟ" },
+      { "code": "G", "char": "ꯠ" },
+      { "code": "i", "char": "ꯡ" },
+      { "code": "T", "char": "ꯢ" }
+    ]
+  },
+  {
+    "name": "cheitap",
+    "mayek": [
+      { "code": "O", "char": "ꯣ" },
+      { "code": "g", "char": "ꯤ" },
+      { "code": "k", "char": " ꯥ" },
+      { "code": "l", "char": "ꯦ" },
+      { "code": "y", "char": "ꯧ" },
+      { "code": "b", "char": "ꯨ" },
+      { "code": "p", "char": "ꯩ" },
+      { "code": "I", "char": "ꯪ" }
+    ]
+  },
+  {
+    "name": "cheishing",
+    "mayek": [
+      { "code": "0", "char": "꯰" },
+      { "code": "1", "char": "꯱" },
+      { "code": "2", "char": "꯲" },
+      { "code": "3", "char": "꯳" },
+      { "code": "4", "char": "꯴" },
+      { "code": "5", "char": "꯵" },
+      { "code": "6", "char": "꯶" },
+      { "code": "7", "char": "꯷" },
+      { "code": "8", "char": "꯸" },
+      { "code": "9", "char": "꯹" }
+    ]
+  },
+  {
+    "name": "khudam",
+    "mayek": [
+      { "code": "!", "char": "꯫" },
+      { "code": ".", "char": "꯬" },
+      { "code": "D", "char": "꯭" },
+      { "code": "`", "char": "|" }
+    ]
+  }
+]

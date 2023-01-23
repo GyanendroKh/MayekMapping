@@ -3,9 +3,14 @@ import io
 import os
 
 class Mayek:
+  TYPE_MAP = {'epao': 'mayek.json', 'ratha': 'ratha.json'}
+
   """This class contains the character mapping (E-pao Font) and categories of the Meitei Mayek characters."""
-  def __init__(self):
-    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'mayek.json')
+  def __init__(self, type: str):
+    if type not in self.TYPE_MAP:
+      raise ValueError(f'Invalid type: {type}')
+
+    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), self.TYPE_MAP[type])
     data = io.open(path).read()
     self.data = json.loads(data)
 
@@ -47,7 +52,7 @@ class Mayek:
 
 
 if __name__ == "__main__":
-  mayek = Mayek()
+  mayek = Mayek('epao')
 
   print(mayek.MAPPING)
   print(mayek.MAPPING_REV)
